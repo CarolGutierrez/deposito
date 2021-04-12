@@ -6,7 +6,9 @@ class getDepositoMaxTest {
 
 	@Test
 	void testGetDepositoMax() {
-		fail("Not yet implemented");
+		DepositoCombustible tank = new DepositoCombustible(40.0,20.0);
+		double res = tank.getDepositoMax();
+		assertEquals(40.0,res );
 	}
 
 }
